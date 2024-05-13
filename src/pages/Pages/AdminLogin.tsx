@@ -11,7 +11,7 @@ const AdminLogin: React.FC = () => {
 
   const handleLogin = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (username === 'admin' && password === 'admin123') {
+    if (username === 'a' && password === 'a') {
       toast.success('Login Successful');
       console.log('Login successful');
       navigate('/dashboard');

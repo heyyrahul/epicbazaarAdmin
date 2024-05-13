@@ -13,7 +13,7 @@ const DropdownDefault = () => {
       if (
         !dropdownOpen ||
         dropdown.current.contains(target) ||
-        trigger.current.contains(target)
+        trigger.current.contains(target) 
       )
         return;
       setDropdownOpen(false);
