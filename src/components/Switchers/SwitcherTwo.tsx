@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import React from 'react';
 const SwitcherTwo = () => {
   const [enabled, setEnabled] = useState(false);
 

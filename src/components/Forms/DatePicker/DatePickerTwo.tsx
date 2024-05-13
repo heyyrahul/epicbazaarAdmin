@@ -1,6 +1,6 @@
 import flatpickr from 'flatpickr';
 import { useEffect } from 'react';
-
+import React from 'react';
 const DatePickerTwo = () => {
   useEffect(() => {
     // Init flatpickr

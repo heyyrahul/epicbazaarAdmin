@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import React from 'react';
 const CheckboxOne = () => {
   const [isChecked, setIsChecked] = useState<boolean>(false);
 

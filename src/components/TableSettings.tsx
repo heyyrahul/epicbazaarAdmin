@@ -1,5 +1,5 @@
 import { BsFillTrashFill, BsFillPencilFill } from "react-icons/bs";
-
+import React from 'react';
 interface Row {
   id: string; // Assuming id is a string, adjust the type if it's different
   para: string; // Assuming para is a string, adjust the type if it's different
